@@ -1,0 +1,13 @@
+A simple perl script that will download the list of places a
+particular user has checked in at with BrightKite.com and convert
+it to a .GPX file. HINT: you can use GPSBabel to convert a .GPX
+file to various formats for use with GPS devices or Google Earth.
+
+Version 1.1 adds a simple database to cache entries, so subsequent
+calls can add new entries and have a complete history of old entries
+(even when they're no longer in the GEO-RSS feed). To reset the
+database, remove ~/.bkhistory.db.
+
+Version 1.1.1 changes the database to be named
+~/.bkhistory.username.db so you can track multiple users.
+
